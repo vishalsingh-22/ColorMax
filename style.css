@@ -5,6 +5,8 @@
     display: flex; 
     font-size: 20px;
     font-weight: 40px;
+    justify-content: center;
+    align-items: center;
 }
 #m1{
      background:linear-gradient(orange, blue); 
