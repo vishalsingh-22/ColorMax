@@ -1,0 +1,91 @@
+#editor{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex; 
+    font-size: 20px;
+    font-weight: 40px;
+}
+#m1{
+     background:linear-gradient(orange, blue); 
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.d1{ 
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: 2px red;
+
+}
+#mini{
+     display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-right: 100px;
+    
+}
+
+
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#p1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex; 
+    background-color: aliceblue;
+   
+}
+
+.bg1{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px black;
+}
+
+
+#p2{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.bg2{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px black;
+
+}
+
+
+
+#p3{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    background-color: aliceblue;
+}

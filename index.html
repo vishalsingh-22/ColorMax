@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:azure;">
+    <center>
+        <h1 id="m1">ColorMax</h1>
+        <div id="editor" contenteditable="true"></div>
+        
+    <br>
+    <div id="mini">
+        <h1>Background Color</h1>
+        <h1> Font Color</h1>
+        <h1> FontStyle</h1>
+    </div>
+        <div id="parent">
+            <div id="p1">
+                
+                 <button class="bg1" onclick="bgc('red')"  style="background-color:red;"></button>
+                 <button class="bg1" onclick="bgc('green')" style="background-color:green ;" ></button>
+                 <button class="bg1" onclick="bgc('aqua')" style="background-color: aqua;" ></button>
+                 <button class="bg1" onclick="bgc('yellow')" style="background-color: yellow;" ></button>
+                 <button class="bg1" onclick="bgc('lightskyblue')" style="background-color: lightskyblue;" ></button>
+            </div>
+
+            <div id="p2">
+                 <button class="bg2" onclick="Textcolor('pink')" style="background-color: pink; "></button>
+                <button class="bg2" onclick="Textcolor('blue')" style="background-color: blue; "></button>
+                <button class="bg2" onclick="Textcolor('orange')" style="background-color: orange;"></button>
+                <button class="bg2" onclick="Textcolor('black')" style="background-color: black;"></button>
+                <button class="bg2" onclick="Textcolor('red')" style="background-color: red;"></button>
+            </div>
+
+
+            <div id="p3">
+                <button class="fnt" onclick="font('sans-serif')" >Style1</button>
+                <button class="fnt" onclick="font('serif')"      >Style2</button>
+                <button class="fnt" onclick="font('monospace')"  >Style3</button>
+                <button class="fnt" onclick="font('cursive')"    >Style4</button>
+                <button class="fnt" onclick="font('fantasy')"    >Style5</button>
+            </div>
+            
+        </div>
+        
+    </center>
+
+    <script>
+        function bgc(color){
+            document.getElementById('editor').style.backgroundColor = color
+        }
+         function Textcolor(color){
+            document.getElementById('editor').style.color = color
+        }
+         function font(font){
+            document.getElementById('editor').style.fontFamily = font
+        }
+    </script>
+    
+</body>
+</html>
